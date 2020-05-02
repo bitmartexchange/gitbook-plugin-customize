@@ -1,0 +1,87 @@
+{
+  "_args": [
+    [
+      "gitbook-plugin-customize"
+    ]
+  ],
+  "_from": "gitbook-plugin-customize",
+  "_id": "gitbook-plugin-customize@0.1.0",
+  "_inBundle": false,
+  "_inCache": true,
+  "_installable": true,
+  "_integrity": "sha1-Ga6qCN6zlzRdtP1sm9t/Ba/wkT0=",
+  "_location": "/gitbook-plugin-customize",
+  "_nodeVersion": "4.1.0",
+  "_npmUser": {
+    "email": "zengningzhong@gmail.com",
+    "name": "znz"
+  },
+  "_npmVersion": "2.14.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "escapedName": "gitbook-plugin-customize",
+    "fetchSpec": "latest",
+    "name": "gitbook-plugin-customize",
+    "raw": "gitbook-plugin-customize",
+    "rawSpec": "",
+    "registry": true,
+    "saveSpec": null,
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/gitbook-plugin-customize/-/gitbook-plugin-customize-0.1.0.tgz",
+  "_shasum": "19aeaa08deb397345db4fd6c9bdb7f05aff0913d",
+  "_shrinkwrap": null,
+  "_spec": "gitbook-plugin-customize",
+  "_where": "/Users/oleg/dev/clever-dev",
+  "author": {
+    "email": "zengningzhong@gmail.com",
+    "name": "znz"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "GitBook Plugin to add header with languages dropdown menu. This parses languages from `../index.html` (as you edit in `LANGS.md`).",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "f065c0525ecfb5f4650b6261d3043f00928890e4",
+    "tarball": "https://registry.npmjs.org/gitbook-plugin-customize/-/gitbook-plugin-customize-0.0.7-0.tgz"
+  },
+  "engines": {
+    "gitbook": ">1.x.x"
+  },
+  "gitbook": {
+    "properties": {
+      "grid-columns": {
+        "default": 3,
+        "max": 10,
+        "min": 1,
+        "title": "Columns count of languages grid",
+        "type": "number"
+      }
+    }
+  },
+  "homepage": "https://www.npmjs.com/package/gitbook-plugin-customize",
+  "keywords": [
+    "gitbook",
+    "plugin",
+    "loc",
+    "localization",
+    "lang",
+    "language",
+    "customize",
+    "dropdown",
+    "menu"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "gitbook-plugin-customize",
+  "optionalDependencies": {},
+  "readme": "",
+  "readmeFilename": "README.md",
+  "scripts": {},
+  "version": "0.1.0"
+}
