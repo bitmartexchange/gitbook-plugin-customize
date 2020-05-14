@@ -8,7 +8,7 @@ GitBook Plugin: customize
 ```
 {
     "plugins": [
-        "customize@https://github.com/okalachev/gitbook-plugin-customize.git"
+        "customize@https://github.com/bitmartexchange/gitbook-plugin-customize.git"
     ]
 }
 ```
