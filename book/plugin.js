@@ -7,6 +7,7 @@ require(['gitbook', 'jQuery'], function(gitbook, $) {
 				LANG_CLASS = 'current';
 
     var init = function () {
+      searchHtml();
 			$('.lang-picker').remove();
 			var lang = window.localStorage.getItem(LANG_KEY);
 			console.log('lang:' + lang)
@@ -41,6 +42,22 @@ require(['gitbook', 'jQuery'], function(gitbook, $) {
 						return '<li class="' + $selected + '"><a href="/en" class="lang-item" name="en">English</a></li>';
 				}
     };
+
+    var searchHtml = function () {
+        var searchHtml = $('#book-search-input').html();
+        $('#book-search-input').remove();
+
+        $('.book-header h1').before(
+          '<a class="btn pull-left js-toolbar-action" aria-label="" href="#"><i class="fa fa-align-justify"></i></a>'
+          + '<a class="btn pull-left" href="#"><div id="book-search-input" role="search">'
+          // + searchHtml
+          + '<input type="text" placeholder="search">'
+          + '</div></a>'
+        );
+
+        $('#book-search-input').css('padding','0px');
+
+    }
 
     gitbook.events.bind('page.change', function() {
         init();
