@@ -8,9 +8,18 @@ require(['gitbook', 'jQuery'], function(gitbook, $) {
 
     var init = function () {
       searchHtml();
+
+
 			$('.lang-picker').remove();
-			var lang = window.localStorage.getItem(LANG_KEY);
-			console.log('lang:' + lang)
+      
+      var lang = '';
+      if(window.location.pathname.indexOf("/zh/") == 0){
+        lang = 'zh'
+      } else if(window.location.pathname.indexOf("/en/") == 0){
+        lang = 'en'
+      } else {
+         lang = window.localStorage.getItem(LANG_KEY);
+      }
 			$('.book-header').append(createDIV(lang));
 
 
